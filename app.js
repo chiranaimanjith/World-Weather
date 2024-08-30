@@ -1,4 +1,4 @@
-const apiKey = '924e4fc92e9b4002ac0152359243008'; // Replace with your Weather API key
+const apiKey = '924e4fc92e9b4002ac0152359243008'; 
 const form = document.getElementById('weatherForm');
 const weatherDataDiv = document.getElementById('weatherData');
 const cityName = document.getElementById('cityName');
