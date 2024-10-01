@@ -8,21 +8,24 @@
 </head>
 <body>
     <div class="container">
-        <h1>Weather Display</h1>
-        <form id="weatherForm">
-            <input type="text" id="locationInput" placeholder="Enter location..." required>
-            <button type="submit">Get Weather</button>
-        </form>
-
-        <div id="weatherData">
-            <h2 id="cityName"></h2>
-            <p id="temperature"></p>
-            <p id="description"></p>
-            <p id="humidity"></p>
-            <p id="windSpeed"></p>
+        <div class="header">
+            <div class="search-container">
+                <input type="text" id="search-bar" class="search-bar" placeholder="Explore weather anywhere">
+                <span class="search-icon">🔍</span>
+                <div id="suggestions" class="suggestions"></div>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">🌙</button>
         </div>
+        <div id="weather-container"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2024 Weather App. All rights reserved.</p>
     </div>
 
-    <script src="app.js"></script>
+    <script src="app.js"> </script>
 </body>
 </html>
