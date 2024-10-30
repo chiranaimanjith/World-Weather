@@ -13,5 +13,5 @@ World-Weather is a simple weather app that shows real-time weather, past data, a
 
 1. Clone this repository:
    ```bash
-   https://github.com/chiranaimanjith/World-Weather.git
+   git clone - https://github.com/chiranaimanjith/World-Weather.git
    cd World-Weather
